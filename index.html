@@ -40,6 +40,9 @@
             </li>
             <li><a href="#contact">Contact</a>
             </li>
+            <li><a href="#" data-toggle="collapse" data-target=".navbar-collapse.in" onclick="$('#aboutModal').modal('show'); return false;"><i class="fa fa-question-circle" style="color: white"></i>&nbsp;&nbsp;About</a>
+            </li>
+
         </ul>
     </div>
     <!-- /Side Menu -->
@@ -76,7 +79,7 @@
                     <div class="service-item">
                         <i class="service-icon fa fa-rocket"></i>
                         <h4>Défi</h4>
-                        <p>Plusieurs équipes co-opétionneront sur es projets proposés par des donneurs d'ouvrage ou les participants eux-m�me</p>
+                        <p>Plusieurs équipes co-opétionneront sur es projets proposés par des donneurs d'ouvrage ou les participants eux-méme</p>
                     </div>
                 </div>
                 
@@ -99,7 +102,7 @@
     </div>
     <!-- /Concept -->
     
-    <!-- D�roulement -->
+    <!-- Déroulement -->
     <div id="deroulement" class="intro">
         <div class="container">
             <div class="row">
@@ -120,10 +123,10 @@
             
         </div>
     </div>
-    <!-- /D�roulement -->
+    <!-- /Déroulement -->
     
 
-    <!-- �venements li�s -->
+    <!-- évenements liés -->
     <div id="about" class="services">
         <div class="container">
         <div class="row">
@@ -158,7 +161,7 @@
             
         </div>
     </div>
-    <!-- /�venements li�s -->
+    <!-- /évenements liés -->
 
 
 
@@ -170,7 +173,7 @@
                 <div class="col-md-4 col-md-offset-4 text-center">
                     <h2>Partenaires</h2>
                     
-<h5>(Contactez-nous pour obtenir notre plan de partenariat)</h5>
+<h5>Retrouvez notre plan de partenariat <a href="#" data-toggle="collapse" data-target=".navbar-collapse.in" onclick="$('#aboutModal').modal('show'); return false;"><i class="fa fa-question-circle" style="color: white"></i>ici</a></h5>
                     <hr>
                 </div>
             </div>
@@ -200,11 +203,72 @@
     </div>
     <!-- /Partenaires -->
     
+     <div class="modal fade" id="aboutModal" tabindex="-1" role="dialog">
+      <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button class="close" type="button" data-dismiss="modal" aria-hidden="true">&times;</button>
+            <h4 class="modal-title">Nous vous proposons de soutenir le défi GéoHack 2014</h4>
+          </div>
+          <div class="modal-body">
+           
+            <div class="tab-content" id="aboutTabsContent" style="padding-top: 10px;">
+              <div class="tab-pane fade active in" id="about">
+                <div class="panel panel-primary">
+                  <div class="panel-heading">Coproducteur - 2000$</div>
+                  <ul class="list-group">
+                    <li class="list-group-item">Mention du partenaire dans toutes les communications et évènements liés</li>
+                    <li class="list-group-item">Commandite utilisée pour la gestion générale de l'évènement (location de salle + nourriture, etc...)</li>
+                  </ul>
+                </div>
+                
+                <div class="panel panel-primary">
+                  <div class="panel-heading">Prix - 1000$</div>
+                  <ul class="list-group">
+                    <li class="list-group-item">Mention du partenaire dans l'évènement qu'il commandite</li>
+                    <li class="list-group-item">1 prix (récompense) au nom du partenaire</li>
+                    <li class="list-group-item">Commandite utilisée pour récompenser les "meilleures" réalisations</li>
+                  </ul>
+                </div>
+                
+                
+                <div class="panel panel-primary">
+                  <div class="panel-heading">Donneur d'ouvrages - 500$</div>
+                  <ul class="list-group">
+                    <li class="list-group-item">Mention du partenaire dans l'évènement pour lequel il propose un défi.</li>
+                    <li class="list-group-item">1 projet soumis par le partenaire (1 représentant du donneur d'ouvrage agira à titre de chargé de projet au sein des participants)</li>
+                    <li class="list-group-item">Commandite utilisée pour défrayer les participants (Prix/participant = SUM( $ Donneurs d'ouvrages) / Nb participants) </li>
+                  </ul>
+                </div>
+                
+                
+                <div class="panel panel-primary">
+                  <div class="panel-heading">Soutien - du temps, simplement </div>
+                  <ul class="list-group">
+                    <li class="list-group-item">Mention du partenaire dans l'évènement qu'il soutient</li>
+                    <li class="list-group-item">Échanges de services servant à l'organisation (matériel, communications,...)</li>
+                  </ul>
+                </div>
+                
+              </div>
+             
+             
+             
+             
+            </div>
+          </div>
+        </div><!-- /.modal-content -->
+      </div><!-- /.modal-dialog -->
+    </div><!-- /.modal -->
+    
 
     <!-- Callout -->
     <div class="callout">
         <div class="vert-text">
-            <h2>Comit�é
+            <h2>Comité organisationnel</h2>
+        </div>
+    </div>
+    <!-- /Callout -->
 
     <!-- Portfolio -->
     <div id="portfolio" class="portfolio">
