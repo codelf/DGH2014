@@ -112,7 +112,9 @@ body {
   width: 100%;
   position: relative;
   /*background: url(../img/bg.jpg) no-repeat center center fixed; */
-  background: url(https://s3.amazonaws.com/images.m2i.stamen.com/20140508/toner_3n28xTHW57E.png) no-repeat center center fixed; 
+  /*background: url(https://s3.amazonaws.com/images.m2i.stamen.com/20140508/toner_3n28xTHW57E.png) no-repeat center center fixed; */
+ /* background: url(../img/dgh14_header.png) no-repeat center center scroll; */
+   background: url(../img/header_ma.jpg) no-repeat center center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -157,7 +159,8 @@ i.service-icon {
   display: table;
   height: 400px;
   width: 100%;
-  background: url(../img/bg.jpg) no-repeat center center fixed; 
+  background: url(../img/dgh14_header.png) no-repeat center center fixed;
+ /* background: url(../img/bg.jpg) no-repeat center center fixed; */
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -224,16 +227,17 @@ i.scroll:hover {
 
 @media (max-width: 768px) {
 	
-  .header {
+    .header {
   	/*background-color:rgba(255,0,0,0.5);*/
 	/* background: url(../img/bg.jpg) no-repeat center center scroll; */
-	background: url(https://s3.amazonaws.com/images.m2i.stamen.com/20140508/toner_3n28xTHW57E.png) no-repeat center center scroll; 
+	/*background: url(https://s3.amazonaws.com/images.m2i.stamen.com/20140508/toner_3n28xTHW57E.png) no-repeat center center scroll; */
+	background: url(../img/dgh14_header.png) no-repeat center center scroll; 
 	
   }
 
   .callout {
-	background: url(../img/bg.jpg) no-repeat center center scroll; 
-  }
+	/*background: url(../img/bg.jpg) no-repeat center center scroll; */
+	background: url(../img/header_ma.jpg) no-repeat center center scroll; 
 
   .map {
 	height: 75%;
