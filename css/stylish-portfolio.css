@@ -183,7 +183,8 @@ i.service-icon {
 
 .call-to-action {
   color: #ffffff;
-  background: #0a5175;
+  background: #424242;
+  /*background: #0a5175;*/
   padding: 50px 0;
 }
 
