@@ -113,8 +113,8 @@ body {
   position: relative;
   /*background: url(../img/bg.jpg) no-repeat center center fixed; */
   /*background: url(https://s3.amazonaws.com/images.m2i.stamen.com/20140508/toner_3n28xTHW57E.png) no-repeat center center fixed; */
- /* background: url(../img/dgh14_header.png) no-repeat center center scroll; */
-   background: url(../img/header_ma.jpg) no-repeat center center fixed; 
+  background: url(../img/dgh14_header.png) no-repeat center center fixed; 
+ /*  background: url(../img/header_ma.jpg) no-repeat center center fixed; */
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -130,9 +130,9 @@ body {
 /* Services */
 
 .services {
-  /*background: #7fbbda;*/
+  background: #7fbbda;
   /*background: #545454;*/
-  background: #1c2d49;
+  /*background: #1c2d49;*/
   padding: 50px 0;
   color: #ffffff;
 }
@@ -156,13 +156,13 @@ i.service-icon {
 /* Callout */
 
 .callout {
-  color: #ffffff;
+  color: #000000;
   display: table;
   height: 400px;
   width: 100%;
-  /*background: url(../img/dgh14_header.png) no-repeat center center fixed;*/
+  background: url(../img/dgh14_header.png) no-repeat center center fixed;
  /* background: url(../img/bg.jpg) no-repeat center center fixed; */
-  background: url(../img/header_ma.jpg) no-repeat center center fixed;
+  /*background: url(../img/header_ma.jpg) no-repeat center center fixed;*/
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -189,8 +189,8 @@ i.service-icon {
 .call-to-action {
   color: #ffffff;
   /*background: #424242;*/
-  /*background: #0a5175;*/
-  background: #8898a8;
+  background: #0a5175;*/
+  /*background: #8898a8;*/
   padding: 50px 0;
 }
 
@@ -234,13 +234,14 @@ i.scroll:hover {
   	/*background-color:rgba(255,0,0,0.5);*/
 	/* background: url(../img/bg.jpg) no-repeat center center scroll; */
 	/*background: url(https://s3.amazonaws.com/images.m2i.stamen.com/20140508/toner_3n28xTHW57E.png) no-repeat center center scroll; */
-	background: url(../img/dgh14_header.png) no-repeat center center scroll; 
+	background: url(../img/dgh14_header.png) no-repeat center center fixed; 
 	
   }
 
   .callout {
 	/*background: url(../img/bg.jpg) no-repeat center center scroll; */
-	background: url(../img/header_ma.jpg) no-repeat center center scroll; 
+	background: url(../img/dgh14_header.png) no-repeat center center scroll; 
+	/*background: url(../img/header_ma.jpg) no-repeat center center scroll; /*
 
   .map {
 	height: 75%;
